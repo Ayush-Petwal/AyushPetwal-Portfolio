@@ -3,7 +3,7 @@ import {Link} from 'react-scroll';
 
 const Navbar = () => {
   return (
-    <nav className='mb-20 flex items-center justify-center py-6 '> 
+    <nav className='mb-2 flex items-center justify-center py-6 '> 
         <div className='flex flex-shrink-0 items-center '>
             <img src={logo} alt="logo" className='w-[4.5rem] mx-2 h-16' />
         </div>
