@@ -52,7 +52,7 @@ const Hero = () => {
             initial='hidden'
             animate='visible'
              className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500
-            bg-clip-text text-3xl lg:text-4xl tracking-tight text-transparent '>{text}</motion.span>
+            bg-clip-text text-3xl lg:text-4xl tracking-tight text-transparent h-8 mb-8 '>{text}</motion.span>
           </div>
         </div>
         <div className='w-full lg:w-1/2 lg:p-8 '>
