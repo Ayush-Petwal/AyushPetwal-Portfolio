@@ -42,7 +42,7 @@ const Skills = () => {
             initial = "initial"
             animate = "animate" 
             className='rounded-full border-4 border-neutral-800 p-4'>
-                <img className="w-[4.5rem] h-[4.5rem]  " src={dsaLogo} alt="DSA" />
+                <img className="w-[4.5rem] h-[4.5rem] " src={dsaLogo} alt="DSA" />
             </motion.div>
             <motion.div
             variants = {iconMotion(3)}
