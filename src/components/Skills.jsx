@@ -5,6 +5,11 @@ import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import  dsaLogo  from "../assets/dsaLogo.png";
 import {motion} from 'framer-motion'
+import { FaNodeJs } from "react-icons/fa6";
+import { SiExpress } from "react-icons/si"
+import { SiMongodb } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
 
 const iconMotion = (duration) =>({
     initial : {y : -10},
@@ -31,7 +36,7 @@ const Skills = () => {
         whileInView = {{opacity : 1 , x : 0}}
         initial = {{opacity : 0 , x : -100}}
         transition = {{duration : 1.5}}
-        className='flex flex-wrap items-center justify-center gap-4 '>
+        className='flex flex-wrap items-center justify-center gap-12 '>
             <motion.div
             variants = {iconMotion(2.5)}
             initial = "initial"
@@ -73,6 +78,41 @@ const Skills = () => {
             animate = "animate" 
             className='rounded-full border-4 border-neutral-800 p-4'>
                 <FaReact className="text-7xl text-cyan-500 " />
+            </motion.div>
+            <motion.div
+            variants = {iconMotion(5)}
+            initial = "initial"
+            animate = "animate" 
+            className='rounded-full border-4 border-neutral-800 p-4'>
+                <FaNodeJs className="text-7xl text-green-500 " />
+            </motion.div>
+            <motion.div
+            variants = {iconMotion(5)}
+            initial = "initial"
+            animate = "animate" 
+            className='rounded-full border-4 border-neutral-800 p-4'>
+                <SiExpress className="text-7xl text-white " />
+            </motion.div>
+            <motion.div
+            variants = {iconMotion(5)}
+            initial = "initial"
+            animate = "animate" 
+            className='rounded-full border-4 border-neutral-800 p-4'>
+                <SiMongodb className="text-7xl text-green-800 " />
+            </motion.div>
+            <motion.div
+            variants = {iconMotion(5)}
+            initial = "initial"
+            animate = "animate" 
+            className='rounded-full border-4 border-neutral-800 p-4'>
+                <RiNextjsFill className="text-7xl text-white " />
+            </motion.div>
+            <motion.div
+            variants = {iconMotion(5)}
+            initial = "initial"
+            animate = "animate" 
+            className='rounded-full border-4 border-neutral-800 p-4'>
+                <SiTypescript className="text-6xl text-blue-500" />
             </motion.div>
         </motion.div>
     </div>
