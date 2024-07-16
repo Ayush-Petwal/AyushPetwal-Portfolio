@@ -37,7 +37,7 @@ export const PROJECTS = [
     title: " Wine Quality Prediction",
     image: project4,
     description:
-      "Sudoku solver using the backtracking algorithm. Users can input a Sudoku puzzle, and the solver will provide the completed solution",
+      "This project aims to predict wine quality using machine learning by analyzing its chemical composition.",
     technologies: ["Python", "Machine Learning"],
     github : "https://github.com/Ayush-Petwal/Wine-Quality-Prediction",
     livelink : "https://github.com/Ayush-Petwal/Wine-Quality-Prediction",
