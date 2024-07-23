@@ -26,7 +26,7 @@ const iconMotion = (duration) =>({
 
 const Skills = () => {
   return (
-    <div className='border-b border-neutral-800 pb-24 '>
+    <div className='border-b border-neutral-800 pb-24 ' id="skills">
         <motion.h2
          whileInView = {{opacity : 1 , y : 0}}
          initial = {{opacity : 0 , y : -100}}
@@ -80,35 +80,35 @@ const Skills = () => {
                 <FaReact className="text-7xl text-cyan-500 " />
             </motion.div>
             <motion.div
-            variants = {iconMotion(5)}
+            variants = {iconMotion(2.5)}
             initial = "initial"
             animate = "animate" 
             className='rounded-full border-4 border-neutral-800 p-4'>
                 <FaNodeJs className="text-7xl text-green-500 " />
             </motion.div>
             <motion.div
-            variants = {iconMotion(5)}
+            variants = {iconMotion(3)}
             initial = "initial"
             animate = "animate" 
             className='rounded-full border-4 border-neutral-800 p-4'>
                 <SiExpress className="text-7xl text-white " />
             </motion.div>
             <motion.div
-            variants = {iconMotion(5)}
+            variants = {iconMotion(3.5)}
             initial = "initial"
             animate = "animate" 
             className='rounded-full border-4 border-neutral-800 p-4'>
                 <SiMongodb className="text-7xl text-green-800 " />
             </motion.div>
             <motion.div
-            variants = {iconMotion(5)}
+            variants = {iconMotion(4)}
             initial = "initial"
             animate = "animate" 
             className='rounded-full border-4 border-neutral-800 p-4'>
                 <RiNextjsFill className="text-7xl text-white " />
             </motion.div>
             <motion.div
-            variants = {iconMotion(5)}
+            variants = {iconMotion(4.5)}
             initial = "initial"
             animate = "animate" 
             className='rounded-full border-4 border-neutral-800 p-4'>

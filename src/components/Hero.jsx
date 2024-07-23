@@ -23,7 +23,7 @@ const Hero = () => {
     deleteSpeed : 50,
   })
   return (
-    <div className='border-b border-neutral-900 pb-4 lg:mb-36 '>
+    <div className='border-b border-neutral-900 pb-4 mt-16 lg:mt-28 lg:mb-36 ' id='hero'>
       <div className='flex flex-wrap '>
         <div className='w-full lg:w-1/2'>
           <div className='flex flex-col items-center lg:items-start'>

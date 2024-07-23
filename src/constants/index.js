@@ -5,6 +5,13 @@ import project4 from "../assets/projects/project-4.png";
 
 export const ABOUT_TEXT = `Hello👋 I am Ayush Petwal, a student at Graphic Era Hill University, Batch of 2025 , I am a dedicated and versatile full-stack developer and competitive programmer with a passion for creating efficient and user-friendly web applications. With 1/2 years of experience, I have worked with a variety of technologies, including React , NextJs , NodeJs , MongoDB , Typescript , Tailwind CSS etc. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of full-stack development, I enjoy my most of time in competitive programming and improve my Data Structure and Algorithm and Problem Solving Skills .`;
 
+export const NAVIGATION_LINKS = [
+  { label: "About", href: "#about" },
+  { label: "Skills", href: "#skills" },
+  { label: "Projects", href: "#projects" },
+  { label: "Contact", href: "#contact" },
+];
+
 export const PROJECTS = [
   {
     title: "VisuAlgo",
