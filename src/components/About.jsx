@@ -28,7 +28,7 @@ const About = () => {
             className="flex flex-col my-auto justify-center lg:justify-start">
                 <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
                 <div className="flex gap-6 mx-auto">
-                  <a href="https://drive.google.com/file/d/1rQO1UeTDxCai5PDf-kgQuzkrf-jkWFxJ/view?usp=sharing" target='_blank'><Button text = " Resume "/></a>
+                  <a href="https://drive.google.com/file/d/1J1dOzTo1AUL_7oq0p0bNtbdIPCqm6UGG/view?usp=sharing" target='_blank'><Button text = " Resume "/></a>
                 </div>
             </motion.div>
         </div>
