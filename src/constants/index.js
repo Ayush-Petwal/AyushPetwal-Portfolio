@@ -1,7 +1,3 @@
-import project1 from "../assets/projects/project.png";
-import project2 from "../assets/projects/project-2.png";
-import project3 from "../assets/projects/project-3.png";
-import project4 from "../assets/projects/project-4.png";
 
 export const ABOUT_TEXT = `Hello👋 I am Ayush Petwal, a student at Graphic Era Hill University, Batch of 2025 , I am a dedicated and versatile full-stack developer and competitive programmer with a passion for creating efficient and user-friendly web applications. With 1/2 years of experience, I have worked with a variety of technologies, including React , NextJs , NodeJs , MongoDB , Typescript , Tailwind CSS etc. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of full-stack development, I enjoy my most of time in competitive programming and improve my Data Structure and Algorithm and Problem Solving Skills .`;
 
@@ -11,43 +7,51 @@ export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" },
 ];
-
 export const PROJECTS = [
   {
-    title: "VisuAlgo",
-    image: project1,
+    title: "Efficio",
+    image: "/p1.png",
     description:
-      "This project will create an interactive tool to visualize how sorting and pathfinding algorithms work. It will allow users to see these algorithms in action, step-by-step, fostering a deeper understanding of their logic and efficiency.",
-    technologies: ["React", "Tailwind CSS", "Data Structure Algorithm"],
-    github : "https://github.com/Ayush-Petwal/VisuAlgo",
-    livelink : "https://visualgorithem.vercel.app/",
+      "Developed a feature-rich productivity app using Next.js, Tailwind CSS, React, and Tanstack Query consisting of tools like Notes, Mind Maps, Calendar, Group Chats and a Pomodoro Timer.",
+    technologies: ["Next.js", "Tailwind CSS", "React", "Tanstack Query"],
+    github: "https://github.com/Ayush-Petwal/Efficio",
+    livelink: "",
   },
   {
-    title: "Expense Tracking System",
-    image: project2,
+    title: "Let's Meet",
+    image: "/p2.svg",
     description:
-      "This project will develop a web application for users to effectively manage their finances through expense tracking. It will leverage the MERN stack (MongoDB, Express, React, Node.js) to create a robust and user-friendly experience.",
-    technologies: ["React", "NodeJs" , "ExpressJs" , "MongoDB"],
-    github : "https://github.com/Ayush-Petwal/Expence-Tracking-System",
-    livelink : "https://expencetrackingsystem.vercel.app/",
+      "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    technologies: ["Next.js", "Tailwind CSS", "TypeScript", "Stream", "C"],
+    github: "https://github.com/Ayush-Petwal/lets_meet",
+    livelink: "",
   },
   {
-    title: "Let’s Meet",
-    image: project3,
+    title: "Path2Placement",
+    image: "/p3.png",
     description:
-      "Let's Meet is a web-based video conferencing platform built with Next.js, inspired by popular tools like Zoom. It aims to provide a seamless and efficient way for users to connect and collaborate virtually.",
-    technologies: ["NextJs", "Tailwind CSS" , "Shadcn"],
-    github : "https://github.com/Ayush-Petwal/lets_meet/",
-    livelink : "https://letsmeetayushpetwal.vercel.app/",
+      "Developed a platform using React, Express, NodeJS and MongoDB enabling instructors to create, upload, and manage a diverse range of online courses, enhancing the learning experience for students.",
+    technologies: ["React", "Tailwind CSS", "Express", "Node.js", "MongoDB"],
+    github: "https://github.com/Ayush-Petwal/Path2Placement",
+    livelink: "",
   },
   {
-    title: " Wine Quality Prediction",
-    image: project4,
+    title: "Glide",
+    image: "/p4.png",
     description:
-      "This project aims to predict wine quality using machine learning by analyzing its chemical composition.",
-    technologies: ["Python", "Machine Learning"],
-    github : "https://github.com/Ayush-Petwal/Wine-Quality-Prediction",
-    livelink : "https://github.com/Ayush-Petwal/Wine-Quality-Prediction",
+      "Developed a ride-booking platform using React, Express, NodeJS and MongoDB where users can easily book rides and track them efficiently.",
+    technologies: ["React", "Express", "Node.js", "MongoDB", "Docker"],
+    github: "https://github.com/Ayush-Petwal/Glide",
+    livelink: "",
+  },
+  {
+    title: "Sort-It",
+    image: "/p5.png",
+    description:
+      "Created an interactive sorting algorithm visualizer that demonstrates how different sorting methods work in real-time. Users can adjust array size, speed, and compare efficiency between algorithms like Bubble, Quick, Merge etc.",
+    technologies: ["React", "Tailwind CSS"],
+    github: "https://github.com/Ayush-Petwal/SortIT",
+    livelink: "",
   },
 ];
 

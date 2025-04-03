@@ -1,6 +1,5 @@
-import React, { use } from 'react'
 import profilePic from '../assets/home.jpg'
-import { delay, motion } from "framer-motion"
+import { motion } from "framer-motion"
 import { useTypewriter } from 'react-simple-typewriter'
 
 const container = (delay) => ({
